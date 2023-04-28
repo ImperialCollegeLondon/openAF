@@ -1,2 +1,2 @@
 # openFocus
-openFocus AutofocusPlugin for Micromanager 2
+This repository is for the openFocus AutofocusPlugin for Micromanager 2
