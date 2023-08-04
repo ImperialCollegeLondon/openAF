@@ -1,5 +1,5 @@
 # openAF
-This repository is for the openAF AutofocusPlugin for Microm-anager 2.0
+This repository is for the openAF AutofocusPlugin for Micro-Manager 2.0
 
 ## Software setup
 You will need a functioning Python environment with the appropriate dependencies satisfied in order to run the Python code, but no extra software is needed (other than µManager) for the Java side.
@@ -14,7 +14,7 @@ You should also ensure that you have installed the appropriate Spinnaker SDK wit
 The Python part of the code is best run from Spyder (in the openAF environment).
 
 ## Setting up software (Java)
-We have used NetBeans to create the AutofocusPlugin for µManager. If you simply wish to use the plugin, just navigate to the _openAF_Java_ folder, then to the _dist_ subfolder, where you will find a file called [Open_AF.jar](https://github.com/ImperialCollegeLondon/openAF/blob/main/openAF_Java/dist/Open_AF.jar) - simply copy this to your Micro-manager 2.0 plugins directory, and it should be available the next time µManager is started.
+We have used NetBeans to create the AutofocusPlugin for µManager. If you simply wish to use the plugin, just navigate to the _openAF_Java_ folder, then to the _dist_ subfolder, where you will find a file called [Open_AF.jar](https://github.com/ImperialCollegeLondon/openAF/blob/main/openAF_Java/dist/Open_AF.jar) - simply copy this to your Micro-Manager 2.0 plugins directory, and it should be available the next time µManager is started.
 
 ### Setting up the software environment (Java)
 If you wish to modify the code for the Java side, you can do so by installing NetBeans and setting up a project for openAF. To do this, you can simply download the _openAF_Java_ folder and load the project it contains into NetBeans. You may need to update the project properties to reflect the exact version of µManager that is installed on your computer, as some plugins and resources will have different version numbers.
